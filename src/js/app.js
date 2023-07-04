@@ -46,24 +46,20 @@ function render(variables = {}) {
               ? "position-left"
               : "position-right"
           }">
-            <li><a href="${
-              variables.twitter == null
-                ? "https://twitter.com/@sftweng"
-                : variables.twitter
+            <li><a href="https://twitter.com/${
+              variables.twitter == null ? "@elonmusk" : variables.twitter
             }"><i class="fab fa-twitter"></i></a></li>
-             <li><a href="${
-               variables.github == null
-                 ? "https://github.com/ElenaZu"
-                 : variables.github
+             <li><a href="https://github.com/${
+               variables.github == null ? "ElenaZu" : variables.github
              }"><i class="fab fa-github"></i></a></li>
-             <li><a href=" ${
+             <li><a href="https://www.linkedin.com/in/${
                variables.linkedin == null
-                 ? "https://www.linkedin.com/in/silvia-elena-z%C3%BA%C3%B1iga-fonseca-b24930186/"
+                 ? "silvia-elena-z%C3%BA%C3%B1iga-fonseca-b24930186/"
                  : variables.linkedin
              }"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="${
+            <li><a href="https://www.instagram.com/${
               variables.instagram == null
-                ? "https://www.instagram.com/silvia_elenazf/"
+                ? "silvia_elenazf/"
                 : variables.instagram
             }"><i class="fab fa-instagram"></i></a></li>
           </ul>
